@@ -24,9 +24,9 @@ public:
 	virtual float attack(Character* other);
 
 	virtual const char* getName() { return m_name; }
-	virtual float getHealth() { return m_health; }
 	virtual float getDamage() { return m_damage; }
 	virtual float getDefense() { return m_defense; }
+	virtual float getHealth() { return m_health; }
 
 private:
 	const char* m_name = new char();
